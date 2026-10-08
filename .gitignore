@@ -1,0 +1,10 @@
+node_modules
+dist
+public/assets
+.next/
+.env*.local
+.DS_Store
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.v0-trash/
