@@ -24,7 +24,7 @@ export default function Header({ connection, retryInSeconds }) {
             <Icon name="user" size={20} />
           </span>
           <span className="profile__text">
-            <span className="profile__name">Alex Kumar</span>
+            <span className="profile__name">Nandini Khewale</span>
             <span className="profile__role">Field Operator</span>
           </span>
           <Icon name="chevron" size={16} className="profile__chevron" />

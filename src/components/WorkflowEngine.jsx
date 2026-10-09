@@ -101,7 +101,7 @@ export default function WorkflowEngine() {
         <main className="main">
           <div className="intro">
             <div>
-              <h2 className="intro__title">Welcome back, Alex</h2>
+              <h2 className="intro__title">Welcome back, Nandini</h2>
               <p className="intro__text">
                 Manage and verify tickets in real-time. Your actions are instantly synced across all
                 operators.

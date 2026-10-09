@@ -1,7 +1,7 @@
 export const initialTasks = [
   {
     id: 1001,
-    title: 'Identity Verification - John Doe',
+    title: 'Identity Verification - Ayush Kumar',
     description: 'Verify government ID and match details.',
     tag: 'KYC',
     minutesAgo: 2,
@@ -9,7 +9,7 @@ export const initialTasks = [
   },
   {
     id: 1002,
-    title: 'Address Verification - Sarah Khan',
+    title: 'Address Verification - Siya Khan',
     description: 'Confirm residential address with utility bill.',
     tag: 'Address',
     minutesAgo: 5,
@@ -17,7 +17,7 @@ export const initialTasks = [
   },
   {
     id: 1003,
-    title: 'Document Check - Michael Smith',
+    title: 'Document Check - Rahul Pandey',
     description: 'Validate uploaded documents for authenticity.',
     tag: 'Document',
     minutesAgo: 8,
@@ -25,7 +25,7 @@ export const initialTasks = [
   },
   {
     id: 1004,
-    title: 'Biometric Verification - Emily Davis',
+    title: 'Biometric Verification - Abhishek Sha',
     description: 'Match facial recognition data.',
     tag: 'Biometric',
     minutesAgo: 12,
@@ -33,7 +33,7 @@ export const initialTasks = [
   },
   {
     id: 1005,
-    title: 'Identity Verification - Robert Wilson',
+    title: 'Identity Verification - Digvijay Rathi',
     description: 'Verifying ID with external database.',
     tag: 'KYC',
     minutesAgo: 6,
@@ -41,7 +41,7 @@ export const initialTasks = [
   },
   {
     id: 1006,
-    title: 'Address Verification - Lisa Brown',
+    title: 'Address Verification - Narendra Kumar',
     description: 'Cross-checking address with records.',
     tag: 'Address',
     minutesAgo: 10,
@@ -49,7 +49,7 @@ export const initialTasks = [
   },
   {
     id: 998,
-    title: 'Identity Verification - David Lee',
+    title: 'Identity Verification - Shrusti Yelne',
     description: 'ID verified successfully.',
     tag: 'KYC',
     minutesAgo: 15,
@@ -65,7 +65,7 @@ export const initialTasks = [
   },
   {
     id: 996,
-    title: 'Biometric Verification - James Carter',
+    title: 'Biometric Verification - Chaitanya Tiwari',
     description: 'Biometric match confirmed.',
     tag: 'Biometric',
     minutesAgo: 35,
