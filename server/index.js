@@ -1,7 +1,7 @@
 
 import { WebSocketServer, WebSocket } from 'ws';
 
-const PORT = 8080;
+const PORT = Number(process.env.PORT) || 8080;
 const ROOM_NAME = 'operations-room';
 
 // Temporary in-memory state for testing.

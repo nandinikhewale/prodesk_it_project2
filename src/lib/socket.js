@@ -1,18 +1,23 @@
-// wss://echo.websocket.events has been shut down; echo.websocket.org is the same service at its current address.
+const configuredSocketUrl =
+  typeof process !== 'undefined' && process.env
+    ? process.env.VITE_SOCKET_URL
+    : undefined;
+
 export const SOCKET_URL =
-  typeof window !== 'undefined' &&
+  configuredSocketUrl ||
+  (typeof window !== 'undefined' &&
   ['localhost', '127.0.0.1'].includes(window.location.hostname)
     ? window.location.protocol === 'https:'
       ? 'wss://localhost:8080'
       : 'ws://localhost:8080'
-    : 'wss://echo.websocket.org';
+    : 'wss://echo.websocket.org');
 
 export const ALLOWED_STATUSES = ['PENDING', 'IN_PROGRESS', 'APPROVED', 'REJECTED'];
 
 const BASE_DELAY_MS = 1000;
 const MAX_DELAY_MS = 30000;
 
-// 1s, 2s, 4s, 8s ... capped at 30s
+
 export function getBackoffDelay(attempt) {
   return Math.min(BASE_DELAY_MS * 2 ** attempt, MAX_DELAY_MS);
 }

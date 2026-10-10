@@ -14,7 +14,10 @@ await esbuild.build({
   outdir: 'dist/assets',
   jsx: 'automatic',
   minify: true,
-  define: { 'process.env.NODE_ENV': '"production"' },
+  define: {
+    'process.env.NODE_ENV': '"production"',
+    'process.env.VITE_SOCKET_URL': JSON.stringify(process.env.VITE_SOCKET_URL || ''),
+  },
 });
 
 console.log('Build finished in ./dist');
