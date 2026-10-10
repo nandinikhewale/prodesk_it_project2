@@ -1,7 +1,4 @@
-const configuredSocketUrl =
-  typeof process !== 'undefined' && process.env
-    ? process.env.VITE_SOCKET_URL
-    : undefined;
+const configuredSocketUrl = process.env.VITE_SOCKET_URL;
 
 export const SOCKET_URL =
   configuredSocketUrl ||

@@ -32,7 +32,12 @@ const ctx = await esbuild.context({
   outdir: 'public/assets',
   jsx: 'automatic',
   sourcemap: true,
-  define: { 'process.env.NODE_ENV': '"development"' },
+define: {
+  'process.env.NODE_ENV': '"development"',
+  'process.env.VITE_SOCKET_URL': JSON.stringify(
+    process.env.VITE_SOCKET_URL || ''
+  ),
+},
   banner: {
     js: "new EventSource('/__reload').onmessage = () => location.reload();",
   },
