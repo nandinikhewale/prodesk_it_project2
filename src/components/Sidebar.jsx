@@ -18,6 +18,7 @@ const SOCKET_LABELS = {
 export default function Sidebar({ connection }) {
   return (
     <aside className="sidebar">
+<<<<<<< HEAD
       <nav aria-label="Main">
         <ul className="nav">
           {NAV_ITEMS.map((item) => (
@@ -35,6 +36,33 @@ export default function Sidebar({ connection }) {
           ))}
         </ul>
       </nav>
+=======
+
+<nav aria-label="Main">
+  <ul className="nav">
+    {NAV_ITEMS.map((item) => (
+      <li key={item.label}>
+        {item.active ? (
+          <a
+            href="/"
+            className="nav__link nav__link--active"
+            aria-current="page"
+          >
+            <Icon name={item.icon} size={20} />
+            {item.label}
+          </a>
+        ) : (
+          <span className="nav__link nav__link--disabled">
+            <Icon name={item.icon} size={20} />
+            {item.label}
+          </span>
+        )}
+      </li>
+    ))}
+  </ul>
+</nav>
+
+>>>>>>> bf73fd9 (Merge remote main with local project)
 
       <div className="socket-card">
         <div className="socket-card__row">

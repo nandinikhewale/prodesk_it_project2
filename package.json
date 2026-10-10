@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "packageManager": "pnpm@12.3.4",
+<<<<<<< HEAD
   "scripts": {
     "dev": "node scripts/dev.mjs",
     "build": "node scripts/build.mjs",
@@ -12,6 +13,18 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
+=======
+"scripts": {
+  "dev": "node scripts/dev.mjs",
+  "server": "node server/index.js",
+  "build": "node scripts/build.mjs",
+  "lint": "eslint . --max-warnings 0"
+},
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "ws": "^8.22.0"
+>>>>>>> bf73fd9 (Merge remote main with local project)
   },
   "devDependencies": {
     "@eslint/js": "^9.39.5",

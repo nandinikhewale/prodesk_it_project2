@@ -210,6 +210,14 @@ p {
   background: var(--page);
 }
 
+<<<<<<< HEAD
+=======
+.nav__link--disabled {
+  cursor: default;
+  opacity: 0.65;
+}
+
+>>>>>>> bf73fd9 (Merge remote main with local project)
 .nav__link--active,
 .nav__link--active:hover {
   background: var(--blue-soft);
