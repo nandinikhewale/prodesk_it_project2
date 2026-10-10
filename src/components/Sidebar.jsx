@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Icon from './Icon.jsx';
 import { SOCKET_URL } from '../lib/socket.js';
 

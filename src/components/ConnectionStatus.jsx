@@ -1,4 +1,4 @@
-import React from 'react';
+
 const LABELS = {
   connecting: 'Connecting…',
   open: 'Connected',

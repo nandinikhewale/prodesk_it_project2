@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Icon from './Icon.jsx';
 import ConnectionStatus from './ConnectionStatus.jsx';
 

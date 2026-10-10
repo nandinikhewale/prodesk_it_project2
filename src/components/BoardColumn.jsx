@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Icon from './Icon.jsx';
 import TaskCard from './TaskCard.jsx';
 import EmptyState from './EmptyState.jsx';
